@@ -1,0 +1,39 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+
+# generic build output
+dist/
+build/
+
+# package manager artifacts
+*.tgz
+bun-debug.log*
+
+# coverage
+coverage/
+*.lcov
+
+# logs
+logs/
+*.log
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# caches
+.cache/
+.eslintcache
+
+# editor / os files
+.idea/
+.DS_Store
+Thumbs.db

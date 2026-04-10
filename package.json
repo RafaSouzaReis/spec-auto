@@ -1,0 +1,20 @@
+{
+  "name": "spec-auto",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "postcss": "^8.5.9",
+    "tailwindcss": "^4.2.2"
+  }
+}
